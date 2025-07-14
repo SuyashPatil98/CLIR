@@ -63,7 +63,7 @@ Enter your search query, switch languages, or try preset suggestions like:
 - Matched using multilingual semantic similarity.
 - Articles include keywords, source, and match confidence.
 
-![German Results](./screenshots/english.png)
+![German Results](./screenshots/german.png)
 
 ---
 
@@ -71,7 +71,7 @@ Enter your search query, switch languages, or try preset suggestions like:
 - German articles translated back into English via the NMT pipeline.
 - Translation confidence and alignment preserved.
 
-![Translated Results](./screenshots/german.png)
+![Translated Results](./screenshots/english.png)
 
 ---
 
