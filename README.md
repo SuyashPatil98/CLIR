@@ -1,30 +1,89 @@
-# Simple UI generator
+# 🌐 CrossLing Search – Cross-Language Information Retrieval System
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+**Search in English. Discover in German. Translate seamlessly.**  
+An end-to-end AI-powered platform that enables **Cross-Language Information Retrieval (CLIR)** using neural machine translation and intelligent document matching across languages.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/suyashpatil98s-projects/v0-simple-ui-generator)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/piLFE8xMfev)
+> ⚡️ Powered by multilingual NLP, semantic search, and automated translation pipelines.
 
-## Overview
+![CLIR UI Overview](./screenshots/overview.png)
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+---
 
-## Deployment
+## 📘 Project Description
 
-Your project is live at:
+**CrossLing Search** is a full-fledged cross-lingual information retrieval application that bridges language barriers in document search. It allows users to:
 
-**[https://vercel.com/suyashpatil98s-projects/v0-simple-ui-generator](https://vercel.com/suyashpatil98s-projects/v0-simple-ui-generator)**
+- 🔍 Enter search queries in English.
+- 🇩🇪 Retrieve topically relevant German-language articles from a curated corpus.
+- 🌐 Translate those German articles back into English using a neural translation pipeline.
+- 📊 Explore results with similarity scores, translation confidence, and metadata.
 
-## Build your app
+This project represents a fusion of **search engineering**, **natural language processing (NLP)**, and **user-centric interface design**—developed for academic, research, and multilingual information access contexts.
 
-Continue building your app on:
+---
 
-**[https://v0.dev/chat/projects/piLFE8xMfev](https://v0.dev/chat/projects/piLFE8xMfev)**
+## 🧠 Key Features
 
-## How It Works
+| Feature                          | Description |
+|----------------------------------|-------------|
+| 🔄 **Cross-Lingual Search**     | Retrieve relevant German content for English queries. |
+| 🤖 **Neural Machine Translation** | Translate German results back to English using a simulated NMT pipeline. |
+| 🧠 **AI-Powered Matching**      | Semantic relevance scores based on embedding-based search. |
+| 🧩 **Language Toggle**           | Compare original German vs translated English results. |
+| 🧼 **Clean UI/UX**               | Minimalist, responsive interface optimized for productivity and clarity. |
+| ⏱️ **Latency Insights**          | Shows search and translation completion times to simulate production feedback. |
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+---
+
+## 🛠️ Tech Stack
+
+| Layer        | Technology                    |
+|--------------|-------------------------------|
+| Frontend     | React, Tailwind CSS, Vite     |
+| NLP Engine   | Embedding-based retrieval with semantic similarity scoring |
+| Translation  | Neural Machine Translation (Transformer-inspired pipeline) |
+| State Mgmt   | React Hooks, Context API       |
+| Design       | Heroicons, Responsive Layout   |
+
+---
+
+## 📸 Demo Preview
+
+### 🔍 Intelligent Search Panel
+Enter your search query, switch languages, or try preset suggestions like:
+- `climate change research`
+- `renewable energy technology`
+- `artificial intelligence in medicine`
+
+![Search UI](./screenshots/search-ui.png)
+
+---
+
+### 🇩🇪 German Search Results
+- Matched using multilingual semantic similarity.
+- Articles include keywords, source, and match confidence.
+
+![German Results](./screenshots/german-results.png)
+
+---
+
+### 🌐 Translated English Results
+- German articles translated back into English via the NMT pipeline.
+- Translation confidence and alignment preserved.
+
+![Translated Results](./screenshots/translated-results.png)
+
+---
+
+## 🧩 System Architecture
+
+```plaintext
+[User Query] → [Embedding Generator]
+                     ↓
+          [Multilingual Search Index]
+                     ↓
+         [German Article Retrieval]
+                     ↓
+   [Neural Machine Translation Pipeline]
+                     ↓
+         [English Result Presentation]
