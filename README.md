@@ -5,7 +5,7 @@ An end-to-end AI-powered platform that enables **Cross-Language Information Retr
 
 > ⚡️ Powered by multilingual NLP, semantic search, and automated translation pipelines.
 
-![CLIR UI Overview](./screenshots/overview.png)
+![CLIR UI Overview](./screenshots/menu.png)
 
 ---
 
@@ -55,7 +55,7 @@ Enter your search query, switch languages, or try preset suggestions like:
 - `renewable energy technology`
 - `artificial intelligence in medicine`
 
-![Search UI](./screenshots/search-ui.png)
+![Search UI](./screenshots/process.png)
 
 ---
 
@@ -63,7 +63,7 @@ Enter your search query, switch languages, or try preset suggestions like:
 - Matched using multilingual semantic similarity.
 - Articles include keywords, source, and match confidence.
 
-![German Results](./screenshots/german-results.png)
+![German Results](./screenshots/english.png)
 
 ---
 
@@ -71,7 +71,7 @@ Enter your search query, switch languages, or try preset suggestions like:
 - German articles translated back into English via the NMT pipeline.
 - Translation confidence and alignment preserved.
 
-![Translated Results](./screenshots/translated-results.png)
+![Translated Results](./screenshots/german.png)
 
 ---
 
